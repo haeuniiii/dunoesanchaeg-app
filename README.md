@@ -1,2 +1,2 @@
 # dunoesanchaeg-app
-젠킨스 CI 저장소
+젠킨스 CI 저장소입니다.
