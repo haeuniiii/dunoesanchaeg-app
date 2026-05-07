@@ -22,6 +22,11 @@ spec:
     }
 
     stages {
+        stage('Docker Check') {
+            steps {
+                sh 'docker --version'
+            }
+        }
 
         stage('Backend Build') {
             steps {
