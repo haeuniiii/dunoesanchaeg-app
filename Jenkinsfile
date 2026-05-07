@@ -11,6 +11,7 @@ spec:
       command:
         - cat
       tty: true
+
     - name: node
       image: node:20
       command:
@@ -21,6 +22,7 @@ spec:
     }
 
     stages {
+
         stage('Backend Build') {
             steps {
                 container('maven') {
@@ -41,5 +43,6 @@ spec:
                 }
             }
         }
+
     }
 }
