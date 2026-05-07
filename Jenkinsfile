@@ -65,7 +65,7 @@ spec:
                     /kaniko/executor \
                       --context=${WORKSPACE}/backend \
                       --dockerfile=${WORKSPACE}/backend/Dockerfile \
-                      --destination=haeuniiii/dunoesanchaeg-backend:latest
+                      --destination=hauncho/dunoesanchaeg-backend:latest
                     '''
                 }
             }
@@ -78,7 +78,7 @@ spec:
                     /kaniko/executor \
                       --context=${WORKSPACE}/frontend \
                       --dockerfile=${WORKSPACE}/frontend/Dockerfile \
-                      --destination=haeuniiii/dunoesanchaeg-frontend:latest
+                      --destination=hauncho/dunoesanchaeg-frontend:latest
                     '''
                 }
             }
