@@ -23,6 +23,7 @@ spec:
       command:
         - /busybox/cat
       tty: true
+      workingDir: /home/jenkins/agent
       volumeMounts:
         - name: docker-config
           mountPath: /kaniko/.docker
